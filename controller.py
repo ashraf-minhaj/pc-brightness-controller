@@ -43,7 +43,7 @@ while 1:
     sensor_value = int(sender.readline().decode("utf-8"))  # get data
     final_value = map_value(value=sensor_value)            # map value (brightness in percentage)
     #print(sensor_value)
-    print(final_value)
+    #print(final_value)
     brightness.set_brightness(final_value)                 # set brightness
 
 # close port properly so that others can use it

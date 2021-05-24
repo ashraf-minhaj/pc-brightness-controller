@@ -7,7 +7,7 @@
     mail  : ashraf_minhaj@yahoo.com
 */
 
-// define sensor pin
+// define sensor pin (analog pin3)
 int sensor_pin = A3;
 
 void setup() {
